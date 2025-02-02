@@ -1,10 +1,10 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { toast } from "@/components/ui/use-toast"
+import { Card, CardContent, CardHeader, CardTitle } from "./components/ui/card"
+import { Button } from "./components/ui/button"
+import { Input } from "./components/ui/input"
+import { toast } from "./components/ui/use-toast"
 
 interface CryptoHolding {
   id: string
