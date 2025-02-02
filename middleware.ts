@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
-import { verifyToken } from "./utils/jwt"
+import { verifyToken } from "./lib/jwt.ts"
 
 export function middleware(request: NextRequest) {
   // Check if the request is for the dashboard
