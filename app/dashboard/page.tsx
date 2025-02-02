@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Button } from "./components/ui/button"
+import { Input } from "./components/ui/input"
 import {
   AreaChart,
   Area,
@@ -19,9 +19,9 @@ import {
   Legend,
 } from "recharts"
 import { ArrowUpRight, ArrowDownRight, DollarSign, Wallet, TrendingUp, Bitcoin, Edit2, Save, X } from "lucide-react"
-import { toast } from "@/components/ui/use-toast"
-import { AccountLink } from "@/components/account-link"
-import { AISuggestions } from "@/components/AISuggestions"
+import { toast } from "./components/ui/use-toast"
+import { AccountLink } from "./components/account-link"
+import { AISuggestions } from "./components/AISuggestions"
 
 interface Transaction {
   id: string
